@@ -5,12 +5,30 @@
 <title>Thiết kế web</title>
 <style>
 	body{background-color:#faf2e4;
-		margin: 0 15%;
+		margin: 0 auto;
+		width: 500px;
 		font-family: sans-serif;
-		}
-	body{
 		background: url("one.jpg")center top fixed;
-	}
+		}
+	.wrap{
+			width: 500px;
+			
+			float: left;
+		}
+	#header{
+			width: 500px;
+			float: left;
+		}
+	.main{
+			width: 500px;
+			background-color:#55F593;
+			float: left;
+			border: 2px solid #FF0000;
+		}
+	#footer{
+			width: 500px;
+			float:left;
+		}
 	h1{
 		color: red;
 		text-align: center;
@@ -18,21 +36,28 @@
 		}
 	h2{
 		color: darkviolet;
+		text-align: center;
 	}
 	a{
     	text-decoration: none;
+		margin: 0 15%;
 	}
 	h3{
 		margin-bottom: 200px;
 		color:blueviolet;
 		text-align: center;
 	}
+	
 </style>
 
 </head>
 
 <body>
-<h1>THIẾT KẾ WEB</h1>
+	<div class="wrap">
+		<div id="header">
+			<h1>THIẾT KẾ WEB</h1>
+		</div>
+		<div class="main">
 	<h2>EXERCISE 4</h2>
 		<a href="https://moonniight.github.io/moonnight.github.io/exercise_4_1">exercise 4_1: Entering content</a><br>
 		<a href="https://moonniight.github.io/moonnight.github.io/exercise_4_2">exercise 4_2: Adding basic structure</a><br>
@@ -64,6 +89,10 @@
 		<a href="https://moonniight.github.io/moonnight.github.io/exercise_9/exercise_9_2.html">exercise 9_2: Adding radio buttons and checkboxes</a><br>
 		<a href="https://moonniight.github.io/moonnight.github.io/exercise_9/exercise_9_3.html">exercise 9_3: Adding a menu</a><br>
 		<a href="https://moonniight.github.io/moonnight.github.io/exercise_9/exercise_9_4.html">exercise 9_4: Labels and fieldsets</a><br>
-	<h3>END GAME</h3>
+		</div>
+		<div id="footer">
+			<h3>END GAME</h3>
+		</div>
+	</div>
 </body>
 </html>
